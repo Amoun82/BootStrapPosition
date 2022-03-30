@@ -1,0 +1,51 @@
+#monConteneur{
+    height: 1000px;
+    border: 1px solid #000;
+    background: pink;
+    margin-top: 20px;
+}
+
+.navbar{
+    border: 1px dotted red;
+    background:orange;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 100px;
+    /*position: relative;
+    top: 100px;*/
+}
+
+.list-menu{
+    display: flex;
+}
+
+.list-item{
+    list-style-type: none;
+}
+
+.link-item{
+    text-decoration: none;
+    color: brown;
+    margin-right: 10px;
+}
+
+.link-item:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.elts{
+    height: 200px;
+    border: 1px dashed orange;
+    background: white;
+}
+
+#div2{
+    margin-bottom: 100px ;
+    margin-top: 30px;
+}
+
+#div3{
+    position: relative;
+    bottom: 90px;
+}
